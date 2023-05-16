@@ -77,7 +77,17 @@ Cadastrar 50 alunos significa repetir o algoritmo anterior cinquenta vezes, ou s
 
 Registro de alunos
 
-Refatorar o algoritmo anterior usando funções para separar a lógica em partes mais organizadas e reutilizáveis.
+- Refatorar o algoritmo anterior usando funções para separar a lógica em partes mais organizadas e reutilizáveis.
+- Colocar uma opção para sair do loop
+
+```mermaid
+flowchart TD
+    A([inicio]) --> B[/leia os dados do aluno\]
+    B --> i[\imprima os dados do aluno/]
+    i --> C{Quer continuar? s ou n}
+    C --> |n| e([fim])
+    C -->|s| B
+ ```
 
 ```java
 import java.util.Scanner;
