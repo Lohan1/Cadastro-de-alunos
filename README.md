@@ -265,6 +265,29 @@ Pseudocódigo:
 
 Desafio: Para refatorar o algoritmo anterior de cadastramento de alunos utilizando a estrutura de registros e criar um formulário em uma GUI Swing para salvar as informações em um arquivo de texto, é necessário utilizar as bibliotecas Java Swing e Java I/O.
 
+## Fase 5
+
+Adicionar uma função no código que permitirá salvar os dados dos alunos em um arquivo de texto.
+
+## Diagrama de classe
+
+```mermaid
+classDiagram
+    class Aluno{
+      +String nome
+      +String sexo,
+      +String endereco,
+      +String cidade,
+      +String estado,
+      +int CEP,
+      +int telefone,
+      +int dataDeNascimento,
+      +int RG,
+      + String nomeDoPai,
+      +String nomeDaMae
+      +int grauDeEscolaridade
+    }
+```
 
 ## Referência
 
